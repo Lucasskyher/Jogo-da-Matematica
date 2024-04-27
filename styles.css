@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald';
+    background-color: #ff8800d5;
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimento padrão */
+}
+
+.game-area {
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%; /* Largura máxima */
+    max-width: 600px; /* Largura máxima */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px; /* Reduzir o preenchimento */
+    background-color: white;
+    padding: 75px;
+}
+
+figure {
+    margin-top: -30px; /* Reduzir a margem superior */
+}
+
+figure > img {
+    width: 75%; /* Largura total */
+    margin: 0; /* Remover margem padrão */
+    margin-bottom: 20px; /* Adicionar margem inferior */
+}
+
+#idAreaEquacao, #idAreaResp {
+    display: flex; /* Usar flexbox para centralizar os elementos */
+    flex-direction: column; /* Dispor os elementos em coluna */
+    align-items: center; /* Alinhar os itens no centro horizontalmente */
+    justify-content: center; /* Alinhar os itens no centro verticalmente */
+    border: 1px dashed rgb(83, 83, 83);
+    border-radius: 10px;
+    padding: 10px; /* Aumentar o preenchimento */
+    margin: 20px 12px; /* Adicionar margem superior e inferior */
+    width: 80%; /* Largura máxima */
+    max-width: 400px; /* Largura máxima */
+    color: gray;
+
+}
+
+#idAreaResp{
+    margin: 20px 20px 0px 25px; 
+}
+
+.game-pergunta button, .game-resposta input {
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Oswald';
+}
+
+.game-resposta{
+    padding: 15px;
+}
+
+button:hover {
+    background-color: #ff8800b7;
+    box-shadow: 0px 5px 3px 3px rgb(223, 119, 0)
+}
